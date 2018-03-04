@@ -5,8 +5,13 @@ describe('Find first non-consecutive num in array', () => {
     //     expect(findFirstNum([1,2,3])).toEqual(3);
     // });
 
-    it("elements in findFirstNum([array]) are all consecutive", () => {
-      expect(findFirstNum([1,2,3,4,5,6])).toEqual(true);
+    it("elements in findFirstNum([1,2,3,4,5,6]) are all consecutive", () => {
+      expect(findFirstNum([1,2,3,4,5,6])).toEqual(null);
+    });
+
+    it('The first NON-consecutive num in findFirstNum([1,2,4,5,6])', () => {
+        
+        expect(findFirstNum([1,2,4,5,6])).toEqual(4);
     });
 
 });
