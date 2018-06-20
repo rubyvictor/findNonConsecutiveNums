@@ -4,7 +4,7 @@ function findFirstNum(arr) {
       return arr[i + 1];
     }
   }
-  return null;
+  return undefined;
 }
 
 module.exports = findFirstNum;
