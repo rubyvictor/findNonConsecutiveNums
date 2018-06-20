@@ -1,4 +1,4 @@
-var findFirstNum = require("../src/findNum.js");
+const findFirstNum = require("../src/findNum.js");
 
 describe("Find first non-consecutive num in array", () => {
   it('findFirstNum([1,2,4,5]) must return 4', () => {
